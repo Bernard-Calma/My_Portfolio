@@ -12,15 +12,99 @@ nav {
     margin: 0 20px 0 20px;
 }
 
+li {
+    list-style: none;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+strong {
+    font-weight: 700;
+    font-size: 30px;
+}
+
 .menu {
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: sp;
 }
 
 .menu li {
-    list-style: none;
-    font-size: 15px;
     margin: auto;
 }
 
+/* Titles */
+.title {
+    font-size: 35px;
+    text-align: center;
+}
+
+/* Contacts */
+.contacts {
+    margin: 0 auto;
+    text-align: center;
+}
+.contacts div {
+    display: flex;
+    justify-content: center;
+}
+.social-media, .social-media li, .contact-information li {
+    
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Resume */
+.resume div{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 600px;
+    padding: 10px 20px 10px 20px;
+}
+
+.resume h1 {
+    font-size: 25px;
+    margin: 0;
+}
+.resume h3 {
+    font-size: 20px;
+    margin: 0;
+}
+.resume h4 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.resume h5 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.resume h6{
+    text-align: start;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.resume p {
+    text-align: start;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-list li {
+    /* list-style: disclosure-closed; */
+    list-style: "☞";
+    margin: 5px;
+}
+
+.resume-list{
+    text-align: start;
+    font-size: 10px;
+    margin: 10px;
+}
