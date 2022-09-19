@@ -15,13 +15,13 @@
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Experience</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a onclick="openMenu(event, 'divResume')" href="#">Resume</a></li>
                 <li><a href="#">Work</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a onclick="openMenu(event, 'divContacts')" href="#">Contacts</a></li>
             </ul>
         </nav>
     </header>
-    <div class = "resume title">
+    <div class = "resume title" id="divResume" hidden>
         <h2>Resume</h2>
         <div class="resume">
             <h3>Bernard Calma</h1>
@@ -86,7 +86,7 @@
             <h6>Basic Design and Algorithm Analysis | University of Perpetual Help</h6>
         </div>
     </div>
-    <div class = "contacts title">
+    <div class = "contacts title" id="divContacts" hidden>
         <h2>Contacts</h2>
         <div>
             <ul class="social-media">

@@ -43,6 +43,10 @@ strong {
     text-align: center;
 }
 
+.contacts, .resume {
+
+}
+
 /* Contacts */
 .contacts {
     margin: 0 auto;
