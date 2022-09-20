@@ -11,9 +11,9 @@
 <body>
     <header>
         <nav class="nav">
-            <h1>Bernard Calma</h1>
+            <img src="./public/title-logo.png" alt="logo" id = "logo">
             <ul class="menu">
-                <li><a href="#">Home</a></li>
+                <li><a onclick="openMenu(event, 'divHome')" href="#">Home</a></li>
                 <li><a href="#">Experience</a></li>
                 <li><a onclick="openMenu(event, 'divResume')" href="#">Resume</a></li>
                 <li><a href="#">Work</a></li>
@@ -103,6 +103,16 @@
             </ul>
         </div>
     </div>
+    <div class = "home title" id="divHome">
+        <h1>Bernard Anthony Calma</h1>
+        <p>I'm a software engineer :D</p>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+    <footer visibility="hidden">
+        Thank you!
+    </footer>
     <script src="./js/app.js"></script>
 </body>
 </html>

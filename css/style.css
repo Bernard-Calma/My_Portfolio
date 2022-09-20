@@ -2,14 +2,24 @@
     font-family: "Fira Code";
 }
 
+html {
+    min-height: 100%;
+}
+
 body {
-    background-color: aliceblue;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, aliceblue, rgb(0, 55, 104)); 
+    padding-bottom: 100px; 
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     margin: 0 20px 0 20px;
+    height: 80px;
 }
 
 li {
@@ -20,6 +30,7 @@ li {
 a {
     text-decoration: none;
     color: black;
+
 }
 
 strong {
@@ -27,24 +38,32 @@ strong {
     font-size: 30px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .menu {
     width: 400px;
     display: flex;
-    flex-direction: sp;
 }
 
 .menu li {
     margin: auto;
 }
 
+/* LOGO */
+
+#logo {
+    scale: 200%;
+    clip: rect(50px, 50px, 50px, 50px);
+}
+
 /* Titles */
 .title {
     font-size: 35px;
     text-align: center;
-}
-
-.contacts, .resume {
-
 }
 
 /* Contacts */
@@ -112,3 +131,44 @@ strong {
     font-size: 10px;
     margin: 10px;
 }
+
+
+.slideUp {
+    animation-name: slideUp;
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-duration: 2s;
+    visibility: visible;
+  }
+  
+
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  .slideDown {
+    animation-name: slideDown;
+    animation-name: slideDown;
+    animation-duration: 2s;
+    animation-duration: 2s;
+  }
+
+  @keyframes slideDown {
+    0% {
+      opacity: 1;
+      transform: translateY(0%);
+    } 
+    100% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+  }
+
+  
