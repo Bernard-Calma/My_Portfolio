@@ -29,3 +29,23 @@ window.onscroll = () => {
         footer.className = "slideDown";
     }
 }
+
+//Projects
+let projectShow = 0;
+// Tamagochi Project
+const openProjects = () => {
+    let arrProjects = ["tamagotchi", "floating-shoe"]
+    for( let i = 0; i < arrProjects.length; i++){
+        // console.log(document.querySelector(`.${arrProjects[i]}`))
+        document.querySelector(`.${arrProjects[i]}`).setAttribute("hidden", true)
+    }
+    if (projectShow === 1) {
+        projectShow = 0;
+    } else {
+        projectShow += 1;
+    }
+    console.log(projectShow)
+    // console.log(document.querySelector(`.${arrProjects[projectShow]}`))
+    document.querySelector(`.${arrProjects[projectShow]}`).removeAttribute("hidden")
+
+}

@@ -16,7 +16,7 @@
                 <li><a onclick="openMenu(event, 'divHome')" href="#">Home</a></li>
                 <li><a href="#">Experience</a></li>
                 <li><a onclick="openMenu(event, 'divResume')" href="#">Resume</a></li>
-                <li><a href="#">Work</a></li>
+                <li><a onclick="openMenu(event, 'divWork')" href="#">Work</a></li>
                 <li><a onclick="openMenu(event, 'divContacts')" href="#">Contacts</a></li>
             </ul>
         </nav>
@@ -110,6 +110,57 @@
             <li></li>
         </ul>
     </div>
+    <div class = "work title" id="divWork" hidden>
+        <div class = "work-project">
+            <h2> Projects </h2>
+
+            <div class = "tamagotchi project">
+                <h3>The Tamagotchi Project</h3>
+                <div class = "project-container">
+                    <div class = "project-button left" onclick="openProjects()">
+                        <img src="./public/left-button.png" alt="tamagotchi" id="imgTamagotchi">
+                    </div>
+                    <div class = "project-image">
+                        <img src="./public/tamagotchi.png" alt="tamagotchi" id="imgTamagotchi">
+                    </div>      
+                    <div class = "project-button right">
+                        <img src="./public/right-button.png" alt="tamagotchi" id="imgTamagotchi">
+                    </div>
+                </div>
+                <h5>First mini project at General Assembly.<br/>Based on a 90's game called Tamagochi.</h5>
+                <ul>Skills:
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+
+            <div class = "floating-shoe project">
+                <h3>Floating Shoe</h3>
+                <div class = "project-container">
+                    <div class = "project-button left" onclick="openProjects()">
+                        <img src="./public/left-button.png" alt="tamagotchi" id="imgTamagotchi">
+                    </div>
+                    <div class = "project-image">
+                        <img src="./public/floating-shoe.png" alt="tamagotchi" id="imgTamagotchi">
+                    </div>      
+                    <div class = "project-button right">
+                        <img src="./public/right-button.png" alt="tamagotchi" id="imgTamagotchi">
+                    </div>
+                </div>
+                <h5>Floating Shoe is a game where you as a player will be a flying shoe and you need to avoid those feet that are trying to get into you as you move forward.</h5>
+                <ul>Skills:
+                    <li>Canvas</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
     <footer visibility="hidden">
         Thank you!
     </footer>
