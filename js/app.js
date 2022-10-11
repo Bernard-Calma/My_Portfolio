@@ -32,9 +32,9 @@ window.onscroll = () => {
 
 //Projects
 let projectShow = 0;
+let arrProjects = ["tamagotchi", "floating-shoe","spentrace"]
 // Tamagochi Project
-const openProjects = () => {
-    let arrProjects = ["tamagotchi", "floating-shoe","spentrace"]
+const openProjectsRight = () => {
     for( let i = 0; i < arrProjects.length; i++){
         // console.log(document.querySelector(`.${arrProjects[i]}`))
         document.querySelector(`.${arrProjects[i]}`).setAttribute("hidden", true)
@@ -47,5 +47,19 @@ const openProjects = () => {
     console.log(projectShow)
     // console.log(document.querySelector(`.${arrProjects[projectShow]}`))
     document.querySelector(`.${arrProjects[projectShow]}`).removeAttribute("hidden")
+}
 
+const openProjectsLeft = () => {   
+    for( let i = 0; i < arrProjects.length; i++){
+        // console.log(document.querySelector(`.${arrProjects[i]}`))
+        document.querySelector(`.${arrProjects[i]}`).setAttribute("hidden", true)
+    }
+    if (projectShow === 0) {
+        projectShow = 2;
+    } else {
+        projectShow -= 1;
+    }
+    console.log(projectShow)
+    // console.log(document.querySelector(`.${arrProjects[projectShow]}`))
+    document.querySelector(`.${arrProjects[projectShow]}`).removeAttribute("hidden")
 }
