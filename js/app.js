@@ -32,14 +32,14 @@ window.onscroll = () => {
 
 //Projects
 let projectShow = 0;
-let arrProjects = ["tamagotchi", "floating-shoe","spentrace"]
+let arrProjects = ["streamin" , "tamagotchi", "floating-shoe", "spentrace"]
 // Tamagochi Project
 const openProjectsRight = () => {
     for( let i = 0; i < arrProjects.length; i++){
         // console.log(document.querySelector(`.${arrProjects[i]}`))
         document.querySelector(`.${arrProjects[i]}`).setAttribute("hidden", true)
     }
-    if (projectShow === 2) {
+    if (projectShow === 3) {
         projectShow = 0;
     } else {
         projectShow += 1;
@@ -55,7 +55,7 @@ const openProjectsLeft = () => {
         document.querySelector(`.${arrProjects[i]}`).setAttribute("hidden", true)
     }
     if (projectShow === 0) {
-        projectShow = 2;
+        projectShow = 3;
     } else {
         projectShow -= 1;
     }

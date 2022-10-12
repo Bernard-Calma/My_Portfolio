@@ -14,7 +14,7 @@
             <img src="./public/title-logo.png" alt="logo" id = "logo">
             <ul class="menu">
                 <li><a onclick="openMenu(event, 'divHome')" href="#">Home</a></li>
-                <li><a href="#">Experience</a></li>
+                <li><a onclick="openMenu(event, 'divExperience')" href="#">Experience</a></li>
                 <li><a onclick="openMenu(event, 'divResume')" href="#">Resume</a></li>
                 <li><a onclick="openMenu(event, 'divWork')" href="#">Projects</a></li>
                 <li><a onclick="openMenu(event, 'divContacts')" href="#">Contacts</a></li>
@@ -86,6 +86,26 @@
             <h6>Basic Design and Algorithm Analysis | University of Perpetual Help</h6>
         </div>
     </div>
+    <div class = "experience title" id = "divExperience" hidden>
+        <h2>Experience</h2>
+        <h3>Education</h3>
+        <div>
+            <div class="education">
+                <div class = "sti">
+                    <h4>STI College Bacoor<span class = "yearGraduated">(Graduated: 2009)</span></h4>
+                    <h5>(AS) Computer Technology</h5>
+                    <p class = "courseDescription">- Studied various programming methodologies, computer networks and concepts, basic computation, and data processing
+                    <h4>Projects</h4>
+                    <ul>
+                        <li>Social Media website - Java</li>
+                        <li>Hotel Room and Reservation System - VB.net, Microsoft Access</li>
+                        <li>Powering a Radio using a Solar Panel - Arduino</li>
+                    </ul>
+                    </p>
+                </div>  
+            </div>
+        </div>
+    </div>
     <div class = "contacts title" id="divContacts" hidden>
         <h2>Contacts</h2>
         <div>
@@ -93,7 +113,7 @@
                 <strong>Social Media</strong>
                 <li><a href="https://www.linkedin.com/in/bernard-calma/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/Bernard-Calma" target="_blank">GitHub</a></li>
-                <li><a href="https://twitter.com/ryznrd" target="_blank">Twitter</a></li>
+                <!-- <li><a href="https://twitter.com/ryznrd" target="_blank">Twitter</a></li> -->
             </ul>
     
             <ul class="contact-information">
@@ -114,7 +134,7 @@
         <div class = "work-project">
             <h2> Projects </h2>
 
-            <div class = "tamagotchi project">
+            <div class = "tamagotchi project" hidden>
                 <h3>The Tamagotchi Project</h3>
                 <div class = "project-container">
                     <div class = "project-button left" onclick="openProjectsLeft()">
@@ -179,6 +199,32 @@
                     <li>NodeJS</li>
                     <li>MongoDB</li>
                     <li>EJS</li>
+                </ul>
+            </div>
+
+            <div class = "streamin">
+                <h3>Streamin</h3>
+                <div class = "project-container">
+                    <div class = "project-button left" onclick="openProjectsLeft()">
+                        <img src="./public/left-button.png" alt="left-button" id="left-button">
+                    </div>
+                    <div class = "project-image">
+                        <img src="./public/streamin.png" alt="streamin" id="streamin">
+                    </div>      
+                    <div class = "project-button right" onclick="openProjectsRight()">
+                        <img src="./public/right-button.png" alt="right-button" id="right-button">
+                    </div>
+                </div>
+                <h5>Streamin is a React-based social media app that allows users to post videos they find interesting with full CRUD capabilites. Meaning they can create, show, update, and delete the posts they make. All while being able to like the videos posted by themselves and other users, as well as comment on videos and like said comments.</h5>
+                <ul>Skills:
+                    <li>React</li>
+                    <li>MongoDB</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Express</li>
+                    <li>NodeJS</li>
+                    
                 </ul>
             </div>
 

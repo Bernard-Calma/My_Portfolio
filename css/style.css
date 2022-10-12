@@ -188,3 +188,22 @@ footer {
     width: 700px !important;
     height: 500px !important;
 }
+
+/* EXPERIENCE */
+/* EDUCATION */
+
+.education div h5, h4, p{
+    margin: 0;
+}
+
+.yearGraduated{
+    font-size: medium;
+}
+
+.courseDescription {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    font-size: large;
+    text-align: left;
+}
