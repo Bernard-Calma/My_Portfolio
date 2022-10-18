@@ -44,7 +44,7 @@ const openProjectsRight = () => {
     } else {
         projectShow += 1;
     }
-    console.log(projectShow)
+    // console.log(projectShow)
     // console.log(document.querySelector(`.${arrProjects[projectShow]}`))
     document.querySelector(`.${arrProjects[projectShow]}`).removeAttribute("hidden")
 }
