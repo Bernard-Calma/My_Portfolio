@@ -160,6 +160,7 @@ footer {
     animation-name: slideDown;
     animation-duration: 2s;
     animation-duration: 2s;
+    visibility: hidden;
   }
 
   @keyframes slideDown {
@@ -194,8 +195,22 @@ footer {
 /* EXPERIENCE */
 /* EDUCATION */
 
+.experience {
+    margin: auto;
+    text-align: center;
+}
+
 .education div h5, h4, p{
     margin: 0;
+}
+
+.sti, .asu{
+    margin-top: 50px;
+}
+
+.educationProjects{
+    margin: 0 auto;
+    text-align: center;
 }
 
 .yearGraduated{
@@ -205,11 +220,10 @@ footer {
 .courseDescription {
     margin: auto;
     margin-top: 20px;
-    width: 50%;
     font-size: large;
-    text-align: left;
+    text-align: center;
 }
 
-.github, .download {
+.github, .download, .logo {
     width: 50px;
 }

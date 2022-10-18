@@ -20,13 +20,15 @@ footer = document.querySelector("footer")
 
 window.onscroll = () => {
     // console.log(document.documentElement.scrollTop)
-    if (document.documentElement.scrollTop > 350) {
+    if (document.documentElement.scrollTop > 250) {
         footer.style.color = "white";
         footer.className = "slideUp";
+        footer.innerText = "Thank you for reading!"
         // console.log(footer.getBoundingClientRect())
     } else {
-        footer.style.color = "black";
         footer.className = "slideDown";
+        console.log(footer.style.display)
+        footer.innerText = "Thank you for reading!"
     }
 }
 
