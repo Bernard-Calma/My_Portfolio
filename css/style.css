@@ -72,11 +72,13 @@ footer {
     text-align: center;
 }
 .contacts div {
+    margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .social-media, .social-media li, .contact-information li {
-    
+    margin: auto;
     text-align: center;
     font-size: 25px;
 }
