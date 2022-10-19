@@ -27,7 +27,7 @@ window.onscroll = () => {
         // console.log(footer.getBoundingClientRect())
     } else {
         footer.className = "slideDown";
-        console.log(footer.style.display)
+        // console.log(footer.style.display)
         footer.innerText = "Thank you for reading!"
     }
 }
@@ -61,7 +61,7 @@ const openProjectsLeft = () => {
     } else {
         projectShow -= 1;
     }
-    console.log(projectShow)
+    // console.log(projectShow)
     // console.log(document.querySelector(`.${arrProjects[projectShow]}`))
     document.querySelector(`.${arrProjects[projectShow]}`).removeAttribute("hidden")
 }

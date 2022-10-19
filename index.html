@@ -7,17 +7,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
+    <link rel="icon" href="./public/title-logo.png" type = "image/x-icon" >
 </head>
 <body>
     <header>
         <nav class="nav">
-            <img src="./public/title-logo.png" alt="logo" id = "logo">
+            <img src="./public/favicon.png" alt="logo" id = "logo" onclick="openMenu(event, 'divHome')">
             <ul class="menu">
-                <li><a onclick="openMenu(event, 'divHome')" href="#">Home</a></li>
-                <li><a onclick="openMenu(event, 'divExperience')" href="#">Experience</a></li>
-                <li><a onclick="openMenu(event, 'divResume')" href="#">Resume</a></li>
-                <li><a onclick="openMenu(event, 'divWork')" href="#">Projects</a></li>
-                <li><a onclick="openMenu(event, 'divContacts')" href="#">Contacts</a></li>
+                <li><a onclick="openMenu(event, 'divHome')">Home</a></li>
+                <li><a onclick="openMenu(event, 'divExperience')">Experience</a></li>
+                <li><a onclick="openMenu(event, 'divResume')">Resume</a></li>
+                <li><a onclick="openMenu(event, 'divWork')">Projects</a></li>
+                <li><a onclick="openMenu(event, 'divContacts')">Contacts</a></li>
             </ul>
         </nav>
     </header>
@@ -120,7 +121,8 @@
                     <p class = "courseDescription">- Software systems are complex, often including in excess of a million lines of code. Graduates of the BS in software engineering possess knowledge and skills of a defined engineering approach to complex systems analysis, planning, design and construction. The program has a unique, project-driven curriculum, establishing a new model of communication, teamwork, critical thinking and professionalism.</p>
                     <h4>Technologies</h4>
                         <img class = "logo" src="./public/java.png" alt="java">
-                        <img class = "logo" src="./public/eclipse.svg" alt="eclipse">
+                        <img class = "logo smallLogo" src="./public/eclipse.svg" alt="eclipse">
+                        <img class = "logo smallLogo" src="./public/logo-data-structure.png" alt="data structure and algorithm">
                 </div>
 
             </div>
@@ -146,14 +148,12 @@
     <div class = "home title" id="divHome">
         <h1>Bernard Anthony Calma</h1>
         <p>I'm a software engineer</p>
-        <div class = skillIcons>
-            <!-- <img class = "logo" src="./public/java.png" alt="">
-            <img class = "logo" src="./public/react.png" alt=""> -->
-        </div>
         <img src="./public/CodingAnimated.gif" alt="" style="pointer-events: none;" oncontextmenu="return false;">
-        <ul>
-            <li></li>
-        </ul>
+        <div class = skillIcons>
+            <!-- <img class = "logo " src="./public/java.png" alt="java">
+            <img class = "logo smallLogo" src="./public/react.png" alt="react">
+            <img class = "logo extraSmallLogo" src="./public/javascript.png" alt="javascript"> -->
+        </div>
     </div>
     <div class = "work title" id="divWork" hidden>
         <div class = "work-project">

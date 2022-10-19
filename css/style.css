@@ -30,6 +30,7 @@ li {
 a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 
 }
 
@@ -177,6 +178,8 @@ footer {
   
 
   /* Flexbox */
+
+/* PROJECTS */
 .project-container {
     display: flex;
     flex-direction: row;
@@ -190,6 +193,11 @@ footer {
 .project-image img{
     width: 700px !important;
     height: 500px !important;
+}
+
+.left, .right{
+    cursor: pointer;
+    height: 20px;
 }
 
 /* EXPERIENCE */
@@ -227,3 +235,12 @@ footer {
 .github, .download, .logo {
     width: 50px;
 }
+
+.smallLogo {
+    width: 70px;
+}
+
+.extraSmallLogo {
+    width: 100px;
+}
+
