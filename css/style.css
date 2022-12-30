@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5 {
     color: #0A2647
 }
 
+p {
+    color: #0A2647
+}
+
 body {
     position: relative;
     height: 100%;
