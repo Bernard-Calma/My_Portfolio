@@ -17,6 +17,7 @@ body {
     background-repeat: no-repeat;
     background-image: linear-gradient(180deg, aliceblue, rgb(0, 55, 104)); 
     padding-bottom: 100px; 
+    color: #0A2647
 }
 
 nav {
