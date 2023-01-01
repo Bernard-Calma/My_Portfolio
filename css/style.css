@@ -82,7 +82,6 @@ strong {
 
 /* LOGO */
 #logo {
-    scale: 200%;
     clip: rect(50px, 50px, 50px, 50px);
 }
 
