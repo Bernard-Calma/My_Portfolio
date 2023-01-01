@@ -13,7 +13,7 @@ body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
-    background-image: linear-gradient(180deg, #e2e7e3, rgb(0, 55, 104)); 
+    /* background-image: linear-gradient(180deg, #e2e7e3, rgb(0, 55, 104));  */
     padding-bottom: 100px; 
     color: #0A2647;
 }
@@ -50,6 +50,14 @@ h4 {
     text-align: left;
 }
 
+hr {
+    width: 30%;
+    margin: 50px auto;
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: #496c93;
+}
+
 li {
     list-style: none;
     font-size: 1.5vw;
@@ -66,7 +74,8 @@ nav {
     height: 80px;
 }
 
-p {
+p, li {
+    font-size: 1.25vw;
     font-family: "Open Sans", sans-serif;
     color: #0A2647;
 }
@@ -120,7 +129,13 @@ strong {
 
 .educationProjects{
     margin: 20px auto 0;
-    text-align: center;
+    padding: 0;
+    text-align: left;
+}
+
+.educationProjects > li {
+    margin: 0;
+    text-align: left;
 }
 
 .experience {
@@ -140,6 +155,11 @@ strong {
 .schoolLogo {
     width: 50%;
     float: left;
+}
+
+.gaSchoolLogo {
+    width: 30%;
+    float: right;
 }
 
 .schoolDescription {
