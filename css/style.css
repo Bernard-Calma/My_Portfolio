@@ -82,7 +82,8 @@ strong {
 
 /* LOGO */
 #logo {
-    clip: rect(50px, 50px, 50px, 50px);
+    margin-left: -110px;
+    margin-top: -80px;
 }
 
 /* Resume */
@@ -193,7 +194,7 @@ strong {
     margin: 0 auto;
 }
 
-.project-image img{
+.project-image > img{
     width: 700px !important;
     height: 500px !important;
 }
