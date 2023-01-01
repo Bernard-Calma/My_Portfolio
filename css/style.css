@@ -11,7 +11,8 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    color: #0A2647
+    color: #0A2647;
+    
 }
 
 body {
@@ -21,7 +22,7 @@ body {
     background-repeat: no-repeat;
     background-image: linear-gradient(180deg, aliceblue, rgb(0, 55, 104)); 
     padding-bottom: 100px; 
-    color: #0A2647
+    color: #0A2647;
 }
 
 nav {
@@ -215,6 +216,7 @@ footer {
 .experience {
     margin: auto;
     text-align: center;
+    
 }
 
 .education div h5, h4, p{
