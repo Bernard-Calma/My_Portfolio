@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5 {
     color: #0A2647
 }
 
+h1 {
+    font-family: "Sriracha", serif;
+}
+
 li {
     list-style: none;
     font-size: 15px;
@@ -94,10 +98,6 @@ strong {
     padding: 10px 20px 10px 20px;
 }
 
-.resume h1 {
-    font-size: 25px;
-    margin: 0;
-}
 .resume h3 {
     font-size: 20px;
     margin: 0;
