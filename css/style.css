@@ -107,13 +107,14 @@ strong {
 .introduction {
     width: 50%;
     margin: auto;
-    font-size: 2rem;
+    font-size: 2vw;
     text-align: center;
     font-family: "Sriracha", serif;
 }
 
 .name {
     margin-bottom: 50px;
+    font-size: 2.5vw;
 }
 
 #profileImage {
