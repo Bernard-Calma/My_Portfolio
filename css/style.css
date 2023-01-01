@@ -9,7 +9,7 @@ body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
-    background-image: linear-gradient(180deg, aliceblue, rgb(0, 55, 104)); 
+    background-image: linear-gradient(180deg, #e2e7e3, rgb(0, 55, 104)); 
     padding-bottom: 100px; 
     color: #0A2647;
 }
@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     font-family: "Sriracha", serif;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: "Aleo", serif;
 }
 
 li {
@@ -45,6 +50,7 @@ nav {
 }
 
 p {
+    font-family: "Open Sans", sans-serif;
     color: #0A2647;
 }
 
@@ -80,8 +86,34 @@ strong {
 }
 
 /* HOME PAGE */
-.name {
+.codingAnimated {
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    z-index: -1;
+}
+
+.introduction {
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
     font-family: "Sriracha", serif;
+}
+
+.name {
+    margin-bottom: 50px;
+}
+
+#profileImage {
+    width: 20%;
+    border-radius: 100%;
+    margin-top: 50px;
+    position: absolute;
+    left: 60%;
+    top: 120%;
+
 }
 
 /* LOGO */
