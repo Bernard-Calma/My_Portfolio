@@ -22,11 +22,11 @@ window.onscroll = () => {
     // console.log(document.documentElement.scrollTop)
     if (document.documentElement.scrollTop > 250) {
         footer.style.color = "white";
-        footer.className = "slideUp";
+        footer.className = "slideUp footerLight";
         footer.innerText = "Thank you for reading!"
         // console.log(footer.getBoundingClientRect())
     } else {
-        footer.className = "slideDown";
+        footer.className = "slideDown footerLight";
         // console.log(footer.style.display)
         footer.innerText = "Thank you for reading!"
     }
