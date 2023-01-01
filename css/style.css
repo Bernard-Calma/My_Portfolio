@@ -1,18 +1,7 @@
-* {
-    font-family: "Fira Code";
-}
-
-html {
-    min-height: 100%;
-}
-
-h1, h2, h3, h4, h5 {
-    color: #0A2647
-}
-
-p {
+a {
+    text-decoration: none;
     color: #0A2647;
-    
+    cursor: pointer;
 }
 
 body {
@@ -25,11 +14,18 @@ body {
     color: #0A2647;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 20px 0 20px;
-    height: 80px;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+html {
+    min-height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #0A2647
 }
 
 li {
@@ -37,22 +33,20 @@ li {
     font-size: 15px;
 }
 
-a {
-    text-decoration: none;
-    color: #0A2647;
-    cursor: pointer;
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+    height: 80px;
+}
 
+p {
+    color: #0A2647;
 }
 
 strong {
     font-weight: 700;
     font-size: 30px;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .menu {
@@ -65,7 +59,6 @@ footer {
 }
 
 /* LOGO */
-
 #logo {
     scale: 200%;
     clip: rect(50px, 50px, 50px, 50px);
@@ -126,11 +119,10 @@ footer {
     margin: 10px;
 }
 
-.resume p {
+.resume-list{
     text-align: start;
     font-size: 10px;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
 }
 
 .resume-list li {
@@ -139,12 +131,12 @@ footer {
     margin: 5px;
 }
 
-.resume-list{
+.resume p {
     text-align: start;
     font-size: 10px;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
 }
-
 
 .slideUp {
     animation-name: slideUp;
@@ -152,44 +144,47 @@ footer {
     animation-duration: 2s;
     animation-duration: 2s;
     visibility: visible;
-  }
+}
   
-
-  @keyframes slideUp {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-
-  .slideDown {
+.slideDown {
     animation-name: slideDown;
     animation-name: slideDown;
     animation-duration: 2s;
     animation-duration: 2s;
     visibility: hidden;
-  }
+}
 
-  @keyframes slideDown {
+@keyframes slideDown {
     0% {
-      opacity: 1;
-      transform: translateY(0%);
+        opacity: 1;
+        transform: translateY(0%);
     } 
     100% {
         opacity: 0;
         transform: translateY(70%);
     }
-  }
+}
 
-  
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
 
-  /* Flexbox */
+/* Flexbox */
 
 /* PROJECTS */
+
+.left, .right{
+    cursor: pointer;
+    height: 20px;
+}
+
 .project-container {
     display: flex;
     flex-direction: row;
@@ -205,26 +200,18 @@ footer {
     height: 500px !important;
 }
 
-.left, .right{
-    cursor: pointer;
-    height: 20px;
-}
-
 /* EXPERIENCE */
 /* EDUCATION */
 
-.experience {
+.courseDescription {
     margin: auto;
+    margin-top: 20px;
+    font-size: large;
     text-align: center;
-    
 }
 
 .education div h5, h4, p{
     margin: 0;
-}
-
-.sti, .asu{
-    margin-top: 50px;
 }
 
 .educationProjects{
@@ -232,15 +219,14 @@ footer {
     text-align: center;
 }
 
-.yearGraduated{
-    font-size: medium;
+.experience {
+    margin: auto;
+    text-align: center;
+    
 }
 
-.courseDescription {
-    margin: auto;
-    margin-top: 20px;
-    font-size: large;
-    text-align: center;
+.extraSmallLogo {
+    width: 100px;
 }
 
 .github, .download, .logo {
@@ -251,7 +237,10 @@ footer {
     width: 70px;
 }
 
-.extraSmallLogo {
-    width: 100px;
+.sti, .asu{
+    margin-top: 50px;
 }
 
+.yearGraduated{
+    font-size: medium;
+}
