@@ -383,11 +383,10 @@ strong {
     margin: 0 auto;
 }
 
-.project-image > img{
-    width: 700px !important;
-    height: 500px !important;
-}
 
+.projectImage {
+    width: 90%;
+}
 
 
 /* Titles */
