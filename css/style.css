@@ -45,6 +45,11 @@ h2 {
     font-family: "Aleo", serif;
 }
 
+h4 {
+    font-weight: normal;
+    text-align: left;
+}
+
 li {
     list-style: none;
     font-size: 1.5vw;
@@ -97,6 +102,88 @@ strong {
     margin: auto;
     text-align: center;
     font-size: 25px;
+}
+
+/* EXPERIENCE */
+/* EDUCATION */
+
+.courseDescription {
+    margin: auto;
+    margin-top: 20px;
+    font-size: large;
+    text-align: left;
+}
+
+.education div h5, h4, p{
+    margin: 0;
+}
+
+.educationProjects{
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.experience {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.extraSmallLogo {
+    width: 100px;
+}
+
+.github, .download, .logo {
+    width: 50px;
+}
+
+.schoolLogo {
+    width: 50%;
+    float: left;
+}
+
+.schoolDescription {
+    text-align: left;
+}
+
+.schoolName {
+    margin: auto;
+    left: 40%;
+    top: 5%;
+}
+
+.schoolTitle {
+    width: 80%;
+    margin: auto;
+}
+
+.smallLogo {
+    width: 70px;
+}
+
+.sti, .asu{
+    margin-top: 50px;
+}
+
+.technologies {
+    display: flex;
+    justify-content: start;
+}
+
+.technologyContainer {
+    margin-top: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.technologyContainer  > p {
+    font-size: 1vw;
+}
+
+.yearGraduated{
+    font-size: medium;
 }
 
 /* HOME PAGE */
@@ -250,50 +337,7 @@ strong {
     height: 500px !important;
 }
 
-/* EXPERIENCE */
-/* EDUCATION */
 
-.courseDescription {
-    margin: auto;
-    margin-top: 20px;
-    font-size: large;
-    text-align: center;
-}
-
-.education div h5, h4, p{
-    margin: 0;
-}
-
-.educationProjects{
-    margin: 0 auto;
-    text-align: center;
-}
-
-.experience {
-    margin: auto;
-    text-align: center;
-    
-}
-
-.extraSmallLogo {
-    width: 100px;
-}
-
-.github, .download, .logo {
-    width: 50px;
-}
-
-.smallLogo {
-    width: 70px;
-}
-
-.sti, .asu{
-    margin-top: 50px;
-}
-
-.yearGraduated{
-    font-size: medium;
-}
 
 /* Titles */
 .title {
