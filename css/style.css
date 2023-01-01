@@ -58,18 +58,6 @@ strong {
     margin: auto;
 }
 
-/* LOGO */
-#logo {
-    scale: 200%;
-    clip: rect(50px, 50px, 50px, 50px);
-}
-
-/* Titles */
-.title {
-    font-size: 35px;
-    text-align: center;
-}
-
 /* Contacts */
 .contacts {
     margin: 0 auto;
@@ -85,6 +73,17 @@ strong {
     margin: auto;
     text-align: center;
     font-size: 25px;
+}
+
+/* HOME PAGE */
+.name {
+    font-family: "Sriracha", serif;
+}
+
+/* LOGO */
+#logo {
+    scale: 200%;
+    clip: rect(50px, 50px, 50px, 50px);
 }
 
 /* Resume */
@@ -243,4 +242,10 @@ strong {
 
 .yearGraduated{
     font-size: medium;
+}
+
+/* Titles */
+.title {
+    font-size: 35px;
+    text-align: center;
 }
