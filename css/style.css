@@ -13,7 +13,7 @@ body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
-    /* background-image: linear-gradient(180deg, #e2e7e3, rgb(0, 55, 104));  */
+    background-image: linear-gradient(180deg, #e2e7e3, rgb(0, 55, 104)); 
     padding-bottom: 100px; 
     color: #0A2647;
 }
@@ -162,8 +162,20 @@ strong {
     float: right;
 }
 
-.schoolDescription {
+.gaSchoolDescription {
+    position: relative;
     text-align: left;
+    margin-right: 50%;
+    right: 0px;
+    width: 70%;
+}
+
+.schoolDescription {
+    position: relative;
+    text-align: left;
+    margin-left: 50%;
+    right: 0px;
+    width: 60%;
 }
 
 .schoolName {
@@ -183,6 +195,11 @@ strong {
 
 .sti, .asu{
     margin-top: 50px;
+}
+
+.stiSchoolLogo {
+    width: 45%;
+    float: left;
 }
 
 .technologies {
