@@ -4,6 +4,10 @@ a {
     cursor: pointer;
 }
 
+a:hover {
+    color: white;
+}
+
 body {
     position: relative;
     height: 100%;
@@ -43,8 +47,12 @@ h2 {
 
 li {
     list-style: none;
-    font-size: 15px;
+    font-size: 1.5vw;
+    font-family: "Aleo", serif;
+    margin: auto 50px;
 }
+
+
 
 nav {
     display: flex;
@@ -64,7 +72,7 @@ strong {
 }
 
 .menu {
-    width: 400px;
+    width: 50%;
     display: flex;
 }
 
