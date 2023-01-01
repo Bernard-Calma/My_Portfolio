@@ -18,6 +18,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #0A2647;
+    text-align: center;
+    height: 3%;
+    padding-top: 1%;
 }
 
 html {
@@ -73,12 +77,14 @@ strong {
     margin: 0 auto;
     text-align: center;
 }
+
 .contacts div {
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .social-media, .social-media li, .contact-information li {
     margin: auto;
     text-align: center;
@@ -92,6 +98,10 @@ strong {
     left: 15%;
     top: 50%;
     z-index: -1;
+}
+
+.copyright {
+    color: rgb(195, 195, 195)
 }
 
 .introduction {
